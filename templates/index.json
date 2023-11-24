@@ -438,6 +438,21 @@
         "mt": 0,
         "mb": 0
       }
+    },
+    "0237af49-bb48-401d-98cd-d3d091cf17d8": {
+      "type": "two-column-images",
+      "settings": {
+        "bg_color": "",
+        "text_align": "text-start",
+        "image_one": "shopify:\/\/shop_images\/homepage-slider-1.jpg",
+        "img_one_border": "img-thumbnail",
+        "image_two": "shopify:\/\/shop_images\/homepage-slider-2.jpg",
+        "img_two_border": "img-thumbnail",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
     }
   },
   "order": [
@@ -451,6 +466,7 @@
     "165175524396f2667c",
     "c74ebbe2-8be5-4594-80c9-25bb5250e03b",
     "16517348541d37c171",
-    "1ab6c22f-7e79-4e79-b4b5-e0939ba5593b"
+    "1ab6c22f-7e79-4e79-b4b5-e0939ba5593b",
+    "0237af49-bb48-401d-98cd-d3d091cf17d8"
   ]
 }
