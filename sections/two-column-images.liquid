@@ -10,20 +10,34 @@
     class="two-column-images {{ section.settings.bg_color }} {{ section.settings.text_align }} {{ pt }} {{ pb }} {{ mt }} {{ mb }}">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-12 col-lg-6 mb-6 mb-lg-0">
-                <img
-                    class="img-fluid"
-                    src="{{ section.settings.image_one.src }}"
-                    alt="{{ section.settings.image_one.alt }}"
-                    loading="lazy">
-            </div>
-            <div class="col-12 col-lg-6 mb-6 mb-lg-0">
-                <img
-                    class="img-fluid"
-                    src="{{ section.settings.image_two.src }}"
-                    alt="{{ section.settings.image_two.alt | escape }}"
-                    loading="lazy">
-            </div>
+
+            {% for block in section.blocks %}
+                {% liquid 
+                    case block.settings.img_orientation
+                        when 'square'
+                            assign img_width  = 600
+                            assign img_height = 600
+                        when 'landscape'
+                            assign img_width  = 600
+                            assign img_height = 480
+                        when 'potrait'
+                            assign img_width  = 480
+                            assign img_height = 600
+                    endcase
+                %}
+                <div class="col-12 col-lg-6 mb-6 mb-lg-0">
+                        {% unless block.settings.img == blank %}
+                            <img
+                                class="img-fluid card-img-top"
+                                src="{{ block.settings.img.src | image_url: width: img_width, height: img_height, crop: block.settings.img_crop }}"
+                                alt="{{ block.settings.img.alt | escape }}"
+                                width="{{ img_width }}"
+                                height="{{ img_height }}"
+                                loading="lazy">
+                        {% endunless %}
+                </div>
+            {% endfor %}
+            
         </div>
     </div>
 </section>
@@ -49,24 +63,6 @@
                 { "group": "Dark", "value": "bg-secondary text-white", "label": "Secondary" },
                 { "group": "Dark", "value": "bg-dark text-white", "label": "Dark" }
             ]
-        },
-        {
-            "type": "header",
-            "content": "Image One"
-        },
-        {
-            "type": "image_picker",
-            "id": "image_one",
-            "label": "Image One"
-        },
-        {
-            "type": "header",
-            "content": "Image Two"
-        },
-        {
-            "type": "image_picker",
-            "id": "image_two",
-            "label": "Image Two"
         },
         {
             "type": "header",
@@ -107,6 +103,38 @@
             "max": 20,
             "step": 1,
             "default": 0
+        }
+    ],
+    "blocks": [
+        {
+            "type": "item",
+            "name": "Item",
+            "settings": [
+                {
+                    "type": "header",
+                    "content": "General"
+                },
+                {
+                    "type": "header",
+                    "content": "Image"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "img",
+                    "label": "Image"
+                },
+                {
+                    "type": "select",
+                    "id": "img_orientation",
+                    "label": "Image orientation",
+                    "default": "landscape",
+                    "options": [
+                        { "value": "square", "label": "Square" },
+                        { "value": "landscape", "label": "Landscape" },
+                        { "value": "potrait", "label": "Potrait" }
+                    ]
+                }
+            ]
         }
     ],
     "presets": [
