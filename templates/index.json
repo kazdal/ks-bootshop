@@ -85,7 +85,7 @@
     "56c6a675-6796-4cfa-8e99-fb4ce48c556b": {
       "type": "html",
       "settings": {
-        "html": "<div class=\"row\">\n<div class=\"col col-lg-3\">\n1\n<\/div>\n<div class=\"col col-lg-3\">\n2\n<\/div>\n<div class=\"col col-lg-3\">\n3\n<\/div>\n<div class=\"col col-lg-3\">\n4\n<\/div>\n<\/div>",
+        "html": "<div class=\"container\">\n<div class=\"row\">\n<div class=\"col col-lg-3\">\n1\n<\/div>\n<div class=\"col col-lg-3\">\n2\n<\/div>\n<div class=\"col col-lg-3\">\n3\n<\/div>\n<div class=\"col col-lg-3\">\n4\n<\/div>\n<\/div>\n<\/div>",
         "bg_color": "bg-primary text-white",
         "container": "",
         "text_align": "text-center",
