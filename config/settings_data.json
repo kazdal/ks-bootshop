@@ -148,5 +148,10 @@
     "content_for_index": [
 
     ]
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".bg-light-blue {background-color: #3fb7ec;}"
+    ]
   }
 }
