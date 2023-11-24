@@ -12,14 +12,14 @@
         <div class="row align-items-center">
             <div class="col-12 col-lg-6 mb-6 mb-lg-0">
                 <img
-                    class="img-fluid {{ section.settings.img_one_border }}"
+                    class="img-fluid"
                     src="{{ section.settings.image_one.src }}"
                     alt="{{ section.settings.image_one.alt }}"
                     loading="lazy">
             </div>
             <div class="col-12 col-lg-6 mb-6 mb-lg-0">
                 <img
-                    class="img-fluid {{ section.settings.img_two_border }}"
+                    class="img-fluid"
                     src="{{ section.settings.image_two.src }}"
                     alt="{{ section.settings.image_two.alt | escape }}"
                     loading="lazy">
@@ -70,17 +70,6 @@
             "label": "Image One"
         },
         {
-            "type": "select",
-            "id": "img_one_border",
-            "label": "Image border",
-            "default": "img-thumbnail",
-            "options": [
-                { "value": "", "label": "Square" },
-                { "value": "rounded", "label": "Rounded" },
-                { "value": "img-thumbnail", "label": "Thumbnail" }
-            ]
-        },
-        {
             "type": "header",
             "content": "Image Two"
         },
@@ -88,17 +77,6 @@
             "type": "image_picker",
             "id": "image_two",
             "label": "Image Two"
-        },
-        {
-            "type": "select",
-            "id": "img_two_border",
-            "label": "Image border",
-            "default": "img-thumbnail",
-            "options": [
-                { "value": "", "label": "Square" },
-                { "value": "rounded", "label": "Rounded" },
-                { "value": "img-thumbnail", "label": "Thumbnail" }
-            ]
         },
         {
             "type": "header",
