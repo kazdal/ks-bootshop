@@ -6,15 +6,15 @@
     "color_body_text": "#212529",
     "font_headings": "roboto_n5",
     "font_body": "sans-serif",
-    "social_facebook": "#",
-    "social_twitter": "#",
+    "social_facebook": "",
+    "social_twitter": "",
     "social_instagram": "#",
     "social_pinterest": "",
-    "social_tiktok": "#",
+    "social_tiktok": "",
     "social_snapchat": "",
-    "social_youtube": "#",
+    "social_youtube": "",
     "social_linkedin": "",
-    "social_whatsapp": "#",
+    "social_whatsapp": "",
     "buttons_border_radius": "0.25rem",
     "cart_goal_enable": true,
     "cart_goal_value": 300,
@@ -96,10 +96,10 @@
           "3cda8bcc-909e-48bd-a7b7-2823ca9ea34b"
         ],
         "settings": {
-          "bg_color": "bg-dark text-white",
+          "bg_color": "bg-white text-dark",
           "show_payment_icons": false,
           "show_social_icons": true,
-          "show_powered_by": true,
+          "show_powered_by": false,
           "pt": 10,
           "pb": 6
         }
@@ -130,7 +130,7 @@
         "type": "newsletter",
         "settings": {
           "bg_color": "bg-light text-dark",
-          "max_width": "560",
+          "max_width": "",
           "title": "Newsletter Subscribe",
           "title_size": "h3",
           "description": "<p>Subscribe to get updates about our latest offers and other important stuff. We usually send once per week.<\/p>",
