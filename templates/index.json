@@ -133,6 +133,23 @@
         "mb": 0
       }
     },
+    "3afa7e78-e358-4d08-a12b-a6c69a08143e": {
+      "type": "html",
+      "settings": {
+        "html": "<div class=\"container-fluid\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0845\/6935\/8626\/files\/homepage-absorption.jpg?v=1701288776\" class=\"img-fluid w-100\">\n<\/div>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
     "165151877352b831f8": {
       "type": "featured-products",
       "disabled": true,
@@ -501,6 +518,7 @@
     "56c6a675-6796-4cfa-8e99-fb4ce48c556b",
     "1ab6c22f-7e79-4e79-b4b5-e0939ba5593b",
     "05966bea-142a-4f08-a883-33887f6e0297",
+    "3afa7e78-e358-4d08-a12b-a6c69a08143e",
     "165151877352b831f8",
     "1651733459a1bea1c2",
     "16527743361f98366e",
