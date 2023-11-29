@@ -116,6 +116,23 @@
         "mb": 0
       }
     },
+    "05966bea-142a-4f08-a883-33887f6e0297": {
+      "type": "html",
+      "settings": {
+        "html": "<div class=\"row\">\n    <div class=\"col-12 col-lg-6\">\n        image\n    <\/div>\n    <div class=\"col-12 col-lg-6\">\n        Video\n    <\/div>\n<\/div>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
     "165151877352b831f8": {
       "type": "featured-products",
       "disabled": true,
@@ -483,6 +500,7 @@
     "0237af49-bb48-401d-98cd-d3d091cf17d8",
     "56c6a675-6796-4cfa-8e99-fb4ce48c556b",
     "1ab6c22f-7e79-4e79-b4b5-e0939ba5593b",
+    "05966bea-142a-4f08-a883-33887f6e0297",
     "165151877352b831f8",
     "1651733459a1bea1c2",
     "16527743361f98366e",
