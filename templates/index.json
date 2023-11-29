@@ -119,7 +119,7 @@
     "05966bea-142a-4f08-a883-33887f6e0297": {
       "type": "html",
       "settings": {
-        "html": "<div class=\"row\">\n    <div class=\"col-12 col-lg-6\">\n        image\n    <\/div>\n    <div class=\"col-12 col-lg-6\">\n        Video\n    <\/div>\n<\/div>",
+        "html": "<div class=\"row\">\n    <div class=\"col-12 col-lg-6\">\n       <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0845\/6935\/8626\/files\/homepage-use-cases.jpg?v=1701287797\" class=\"img-fluid\">\n    <\/div>\n    <div class=\"col-12 col-lg-6\">\n        Video\n    <\/div>\n<\/div>",
         "bg_color": "",
         "container": "container",
         "text_align": "text-center",
