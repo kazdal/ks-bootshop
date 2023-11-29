@@ -102,7 +102,7 @@
     "1ab6c22f-7e79-4e79-b4b5-e0939ba5593b": {
       "type": "html",
       "settings": {
-        "html": "<div class=\"row\">\n    <div class=\"col-12 col-lg-6\">\n        <h3>POYCHI Natural Microfiber Super Sponge, 12 Fiber Layer on 1 Sponge<\/h3>\n        <p>• PATENT PENDING. High quality microfiber cloth. Patent Pending design 12 layer microfiber at 1 Sponge, You will get Brand new surface layer by layer. You ll have perfect result on first wipe.<\/p>\n        <p>• USE LAYER BY LAYER AS BRAND NEW SPONGE High Natural Microfiber sponge with superior absorption leaves no marks after use, retains shape, and lasts longer than traditional cleaning sponges.<\/p>\n        <p>• EXTRAORDINARY LIQUID ABSORPTION ABILITY, Special Surface for Perfect Cleaning. NON-SCRATCH<\/p>\n        <p>• CHEMICAL FREE, PREMIUM GRADE MICROFIBER: it is all natural microfiber for the health and safety of our customers, we ensure that our sponges are 100% safe to use.<\/p>\n        <p>• MADE FOR A TOUGH JOB. You can use almost everywhere <strong>Home Daily Use, Kitchen, Bathroom, Living Room, Appliances, Furniture, Cars, Shoes.<\/strong><\/p>\n    <\/div>\n    <div class=\"col-12 col-lg-6\">\n        asd\n    <\/div>\n<\/div>",
+        "html": "<div class=\"container\">\n<div class=\"row\">\n    <div class=\"col-12 col-lg-6\">\n        <h3>POYCHI Natural Microfiber Super Sponge, 12 Fiber Layer on 1 Sponge<\/h3>\n        <p>• PATENT PENDING. High quality microfiber cloth. Patent Pending design 12 layer microfiber at 1 Sponge, You will get Brand new surface layer by layer. You ll have perfect result on first wipe.<\/p>\n        <p>• USE LAYER BY LAYER AS BRAND NEW SPONGE High Natural Microfiber sponge with superior absorption leaves no marks after use, retains shape, and lasts longer than traditional cleaning sponges.<\/p>\n        <p>• EXTRAORDINARY LIQUID ABSORPTION ABILITY, Special Surface for Perfect Cleaning. NON-SCRATCH<\/p>\n        <p>• CHEMICAL FREE, PREMIUM GRADE MICROFIBER: it is all natural microfiber for the health and safety of our customers, we ensure that our sponges are 100% safe to use.<\/p>\n        <p>• MADE FOR A TOUGH JOB. You can use almost everywhere <strong>Home Daily Use, Kitchen, Bathroom, Living Room, Appliances, Furniture, Cars, Shoes.<\/strong><\/p>\n    <\/div>\n    <div class=\"col-12 col-lg-6\">\n        asd\n    <\/div>\n<\/div>\n<\/div>",
         "bg_color": "",
         "container": "",
         "text_align": "text-start",
@@ -119,7 +119,7 @@
     "05966bea-142a-4f08-a883-33887f6e0297": {
       "type": "html",
       "settings": {
-        "html": "<div class=\"row\">\n    <div class=\"col-12 col-lg-6\">\n       <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0845\/6935\/8626\/files\/homepage-use-cases.jpg?v=1701287797\" class=\"img-fluid\">\n    <\/div>\n    <div class=\"col-12 col-lg-6\">\n        Video\n    <\/div>\n<\/div>",
+        "html": "<div class=\"container\">\n<div class=\"row\">\n    <div class=\"col-12 col-lg-6\">\n       <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0845\/6935\/8626\/files\/homepage-use-cases.jpg?v=1701287797\" class=\"img-fluid\">\n    <\/div>\n    <div class=\"col-12 col-lg-6\">\n        Video\n    <\/div>\n<\/div>\n<\/div>",
         "bg_color": "",
         "container": "container",
         "text_align": "text-center",
