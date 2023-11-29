@@ -119,7 +119,7 @@
     "05966bea-142a-4f08-a883-33887f6e0297": {
       "type": "html",
       "settings": {
-        "html": "<div class=\"container\">\n<div class=\"row\">\n    <div class=\"col-12 col-lg-6\">\n       <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0845\/6935\/8626\/files\/homepage-use-cases.jpg?v=1701287797\" class=\"img-fluid\">\n    <\/div>\n    <div class=\"col-12 col-lg-6\">\n        Video\n    <\/div>\n<\/div>\n<\/div>",
+        "html": "<div class=\"container\">\n<div class=\"row\">\n    <div class=\"col-12 col-lg-6\">\n       <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0845\/6935\/8626\/files\/homepage-use-cases.jpg?v=1701287797\" class=\"img-fluid\">\n    <\/div>\n    <div class=\"col-12 col-lg-6\">\n       <div class=\"embed-responsive embed-responsive-1by1\">\n  <video class=\"embed-responsive-item\" muted=\"\" autoplay=\"\" loop=\"\" src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/1b7d174d2bde4ccdb51295b564eb461c.mp4\" type=\"video\/mp4\" width=\"632\">\n   <\/video>\n<\/div>\n    <\/div>\n<\/div>\n<\/div>",
         "bg_color": "",
         "container": "container",
         "text_align": "text-center",
@@ -128,7 +128,7 @@
         "description": "",
         "description_size": "fs-6",
         "pt": 0,
-        "pb": 0,
+        "pb": 7,
         "mt": 0,
         "mb": 0
       }
