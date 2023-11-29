@@ -136,9 +136,9 @@
     "3afa7e78-e358-4d08-a12b-a6c69a08143e": {
       "type": "html",
       "settings": {
-        "html": "<div class=\"container-fluid\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0845\/6935\/8626\/files\/homepage-absorption.jpg?v=1701288776\" class=\"img-fluid w-100\">\n<\/div>",
+        "html": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0845\/6935\/8626\/files\/homepage-absorption.jpg?v=1701288776\" class=\"img-fluid\">",
         "bg_color": "",
-        "container": "container",
+        "container": "container-fluid",
         "text_align": "text-center",
         "title": "",
         "title_size": "h2",
