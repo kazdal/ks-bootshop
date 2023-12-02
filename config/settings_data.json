@@ -134,7 +134,7 @@
         "type": "newsletter",
         "settings": {
           "bg_color": "bg-white text-dark",
-          "max_width": "",
+          "max_width": "760",
           "title": "Be In The Know",
           "title_size": "h3",
           "description": "<p>Subscribe to get updates about our offers and new products.<\/p>",
