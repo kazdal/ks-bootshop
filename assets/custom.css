@@ -1,3 +1,17 @@
 /* 
     Add here your own custom css styles
 */
+
+.how_splash {
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/how_it_works_splash.jpg?v=1701710022);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+.how_splash_blue {
+    color: #1973ff;
+}
+.how_splash_orange {
+    color: #e56521;
+}
