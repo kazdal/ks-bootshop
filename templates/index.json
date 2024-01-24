@@ -532,6 +532,23 @@
         "mt": 0,
         "mb": 0
       }
+    },
+    "html_9kHy4P": {
+      "type": "html",
+      "settings": {
+        "html": "<div class=\"row mb-4\">\n\n        <div class=\"col-12 col-lg-6 poychi-main-shoe-cleaner text-center px-4 py-0\">\n            <h2 class=\"w-100 py-5\">\n                POYCHI MAGICAL\n                <br>\n                FIBER SHOE CLEANER\n            <\/h2>\n            <p>READY TO USE,<br>INSTANTLY ACTIVATED;<\/p>\n            <p class=\"px-5\">Simply add water to activate the solution, and you're ready to experience the cleaning power of Poychi Magical Microfiber Rag. After cleaning, wipe away the residual foam and let it dry.<\/p>\n            <p class=\"px-5\">The process is so easy that you can repeat it whenever needed, using the same disc repeatedly.<\/p>\n        <\/div>\n\n        <div class=\"col-12 col-lg-6 text-center bg-gradient-poychi-green p-3 rounded-3\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0845\/6935\/8626\/files\/poychi-main-shoe-cleaner-image.png\" class=\"img-fluid w-75\">\n            <p>\n                <a href=\"\" class=\"btn btn-light\">SHOP NOW<\/a>\n            <\/p>\n        <\/div>\n\n    <\/div>\n\n    <div class=\"row mb-4\">\n\n        <div class=\"col-12 col-lg-6 text-center bg-poychi-pink p-3 rounded-3\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0845\/6935\/8626\/files\/poychi-main-stain-remover-image.png\" class=\"img-fluid w-75\">\n            <p>\n                <a href=\"\" class=\"btn btn-light\">SHOP NOW<\/a>\n            <\/p>\n        <\/div>\n\n        <div class=\"col-12 col-lg-6 poychi-main-stain-remover text-center px-4 py-0\">\n            <h2 class=\"w-100 py-5\">\n                POYCHI MAGICAL\n                <br>\n                FIBER STAIN REMOVER\n            <\/h2>\n            <p>SIMPLY ADD WATER TO<br>ACTIVATE THE SOLUTION<\/p>\n            <p class=\"px-5\">It's ready to use instantly. This versatile solution can be reused multiple times; just follow the same straightforward process. Its portability makes it easy to carry wherever you go.<\/p>\n            <p class=\"px-5\">Use for; Coffee, Food, Pet Stains, Wine, Blood, Tea, Grease, Cosmetics and many more!<\/p>\n        <\/div>\n\n    <\/div>\n\n    <div class=\"row mb-4\">\n\n        <div class=\"col-12 col-lg-6 poychi-main-shoe-cleaner-kit text-center px-4 pt-5\">\n            <h2 class=\"w-100 py-5\">\n                POYCHI\n                <br>\n                SHOE CLEANER KIT\n            <\/h2>\n            <h3>DUAL ACTIONS<\/h3>\n            <p>Heavy Duty<br>STAIN REMOVER SPRAY<\/p>\n            <p class=\"px-5\">+<\/p>\n            <p class=\"px-5\">MAGICAL LAYERED<br>MICROFIBER RAG<\/p>\n        <\/div>\n\n        <div class=\"col-12 col-lg-6 text-center p-3 rounded-3\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0845\/6935\/8626\/files\/poychi-main-shoe-cleaner-spray-image.jpg\" class=\"img-fluid w-75\">\n            <p>\n                <a href=\"\" class=\"btn btn-light\">SHOP NOW<\/a>\n            <\/p>\n        <\/div>\n\n    <\/div>\n\n    <div class=\"row mb-4 bg-poychi-light rounded-3 py-3 pt-5\">\n\n        <div class=\"col-12 col-lg-6 px-0\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0845\/6935\/8626\/files\/poychi-main-stain-remover-spray-image.png\" class=\"img-fluid\">\n        <\/div>\n\n        <div class=\"col-12 col-lg-6 poychi-main-stain-remover-spray text-center px-4 pt-5\">\n            <h2 class=\"w-100 py-4\">\n                POYCHI\n                <br>\n                STAIN REMOVER SPRAY\n            <\/h2>\n            <p class=\"px-5\">It Is Ultimate Solution<br>For Stain Removal<\/p>\n            <p class=\"px-5\">Use Almost Everywhere;<br>Shirts, Shoes, Carpets, Sofas,<br>Beds, Car Seat, Curtains,<br>Bags, Coats, and many more<\/p>\n        <\/div>\n\n        <div class=\"col-12 text-center\">\n            <a href=\"\" class=\"btn btn-light\">SHOP NOW<\/a>\n        <\/div>\n\n    <\/div>\n\n    <div class=\"row mb-4 rounded-3 py-3 pt-5\">\n\n        <div class=\"col-12 col-lg-6 px-0\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0845\/6935\/8626\/files\/poychi-main-patent-pending.jpg\" class=\"img-fluid\">\n        <\/div>\n\n        <div class=\"col-12 col-lg-6 text-center px-4 pt-0 poychi-main-12-in-1\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0845\/6935\/8626\/files\/poychi-main-12-in-1.jpg\" class=\"img-fluid\">\n            <h3>\n                Tear Off Dirty Layer To Reveal A Brand New Cloth\n            <\/h3>\n        <\/div>\n\n        <div class=\"col-12 text-center\">\n            <a href=\"\" class=\"btn btn-light\">SHOP NOW<\/a>\n        <\/div>\n\n    <\/div>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
     }
   },
   "order": [
@@ -549,6 +566,7 @@
     "165175524396f2667c",
     "c74ebbe2-8be5-4594-80c9-25bb5250e03b",
     "16517348541d37c171",
-    "html_JyX9NW"
+    "html_JyX9NW",
+    "html_9kHy4P"
   ]
 }
