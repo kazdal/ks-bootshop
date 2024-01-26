@@ -45,8 +45,8 @@
           "menu_mobile": "",
           "utilities_menu": "",
           "offcanvas_menu_show_social_icons": true,
-          "pt": 3,
-          "pb": 3
+          "pt": 5,
+          "pb": 5
         }
       },
       "footer": {
