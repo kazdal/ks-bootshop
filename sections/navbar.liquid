@@ -10,7 +10,22 @@
         <a class="link-secondary" href="#">Subscribe</a>
       </div>
       <div class="col-4 text-center">
-        <a class="blog-header-logo text-dark" href="#">Large</a>
+        <a class="text-dark" href="#">
+          {% if section.settings.logo %}
+                {% assign logo_height_x2 = section.settings.logo_height_mobile | times: 2 %}
+                <img
+                    class="img-fluid"
+                    src="{{ section.settings.logo | image_url: height: logo_height_x2 }}" 
+                    alt="{{ shop.name }}"
+                    width="{{ section.settings.logo_height_mobile | times: section.settings.logo.aspect_ratio | round }}" 
+                    height="{{ section.settings.logo_height_mobile }}"
+                    loading="lazy">
+            {% else %}
+                <span class="fs-3">
+                    {{ shop.name }}
+                </span>
+            {% endif %}
+        </a>
       </div>
       <div class="col-4 d-flex justify-content-end align-items-center">
         <a class="link-secondary" href="#" aria-label="Search">
@@ -42,16 +57,6 @@
     </div>
   </div>
 </nav>
-
-<div class="container d-flex flex-wrap">
-  <ul class="nav mx-auto">
-    <li class="nav-item"><a href="#" class="nav-link link-dark px-4 active" aria-current="page">Home</a></li>
-    <li class="nav-item"><a href="#" class="nav-link link-dark px-4">Features</a></li>
-    <li class="nav-item"><a href="#" class="nav-link link-dark px-4">Pricing</a></li>
-    <li class="nav-item"><a href="#" class="nav-link link-dark px-4">FAQs</a></li>
-    <li class="nav-item"><a href="#" class="nav-link link-dark px-4">About</a></li>
-  </ul>
-</div>
 
 <nav 
     id="navbar-mobile" 
