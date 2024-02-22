@@ -1,26 +1,6 @@
-/* 
-    Add here your own custom css styles
-*/
-
-.how_splash {
-    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/how_it_works_splash.jpg?v=1701710022);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: bottom;
-    padding-top: 50px;
-    padding-bottom: 30px;
+body {
+    font-family: 'Allerta', sans-serif;
 }
-.how_splash_blue {
-    color: #1973ff;
-}
-.how_splash_orange {
-    color: #e56521;
-    margin-bottom: 120px;
-}
-
-body { font-family: 'Allerta', sans-serif !important; }
-
 .poychi-nav-outer {
     border-width: 0px 0px 10px 0px;
     border-style: solid;
@@ -28,6 +8,7 @@ body { font-family: 'Allerta', sans-serif !important; }
 }
 .poychi-nav a { text-decoration: none; }
 .poychi-main-carousel .carousel-caption {
+    position:absolute;
     top: 1.25rem;
 }
 .poychi-main-carousel .carousel-caption h5 {
@@ -36,32 +17,32 @@ body { font-family: 'Allerta', sans-serif !important; }
     font-size: 3rem;
 }
 .poychi-main-shoe-cleaner {
-    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/poychi-main-shoe-cleaner-bg.jpg?v=1706126933);
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/poychi-main-shoe-cleaner-bg.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
 }
 .poychi-main-stain-remover {
-    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/poychi-main-stain-remover-bg.jpg?v=1706126933);
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/poychi-main-stain-remover-bg.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
 }
 .poychi-main-shoe-cleaner-kit {
-    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/poychi-main-shoe-cleaner-spray-bg.jpg?v=1706126933);
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/poychi-main-shoe-cleaner-spray-bg.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
 }
 .poychi-main-stain-remover-spray {
-    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/poychi-main-stain-remover-spray-bg.png?v=1706126933);
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/poychi-main-stain-remover-spray-bg.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
 }
 .poychi-main-shoe-cleaner h2,
 .poychi-main-stain-remover h2 {
-    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/poychi-main-shoe-cleaner-heading.png?v=1706126933);
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/poychi-main-shoe-cleaner-heading.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -94,6 +75,803 @@ body { font-family: 'Allerta', sans-serif !important; }
 .bg-poychi-light {
     background-color: #ffe5d8;
 }
+
+
+/* PAGE 2 */
+.poychi-shoe-cleaner-carousel .carousel-caption {
+    top: 1.25rem;
+}
+.poychi-shoe-cleaner-carousel .carousel-caption h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    color:white;
+    text-shadow: 2px 2px 0px rgba(0,0,0,1);
+    margin:30px 0 40px;
+}
+
+.poychi-shoe-cleaner-carousel .carousel-caption p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color:#056baa;
+}
+.poychi-shoe-cleaner-carousel .carousel-caption strong {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color:#0250b1;
+    
+}
+.poychi-shoe-cleaner-carousel .carousel-caption strong.plus {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 5rem;
+    color:#056baa;
+    line-height: 2rem;
+}
+
+
+
+.poychi-main-shoe-cleaner {
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/poychi-main-shoe-cleaner-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.poychi-main-stain-remover {
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/poychi-main-stain-remover-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.poychi-main-shoe-cleaner-kit {
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/poychi-main-shoe-cleaner-spray-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.poychi-main-stain-remover-spray {
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/poychi-main-stain-remover-spray-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.poychi-main-stain-remover-spray-90 {
+    background-size: 90%;
+}
+.poychi-main-shoe-cleaner h2,
+.poychi-main-stain-remover h2 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/poychi-main-shoe-cleaner-heading.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.poychi-main-shoe-cleaner-kit h3 {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+}
+.poychi-main-shoe-cleaner p,
+.poychi-main-stain-remover p,
+.poychi-main-shoe-cleaner-kit p,
+.poychi-main-stain-remover-spray p {
+    font-size: 1.3rem;
+}
+.poychi-main-12-in-1 h3 {
+    color: #3174f7;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.bg-gradient-poychi-green {
+    background: rgb(145,226,214);
+    background: radial-gradient(circle, rgba(145,226,214,1) 0%, rgba(196,237,228,1) 66%);
+}
+.bg-poychi-pink {
+    background-color: #f5dff2;
+}
+.bg-poychi-light {
+    background-color: #ffe5d8;
+}
+
+.poychi-shoe-cleaner-cta h2 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/shoe-cleaner-bg-pattern.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.product-view {
+    border:1px solid black;
+    border-radius: 10px;
+    width:220px;
+    margin-bottom:10px;
+}
+
+.price-view {
+    margin:10px 0;
+}
+
+.add-to-cart-btn {
+    background-color:#87b463;
+    color:white;
+    border-radius:5px;
+    text-decoration:none;
+    padding:8px 30px;
+}
+
+.shipping-note { 
+    margin-top:auto;
+    margin-bottom:10px;
+}
+
+.shoe-cleaner-bg-blue {
+    background-color: #61bbe3;
+}
+
+
+.easy-steps-title {
+    color:white;
+    text-shadow: 2px 2px 0px rgba(0,0,0,1);
+    padding:20px 0;
+    font-size:32px;
+}
+
+.easy-steps-text {
+    color:white;
+    padding:15px 0;
+}
+
+.cleaner-kit {
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/cleaner-kit-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.cleaner-kit h4 {
+    color:white;
+    text-shadow: 2px 2px 0px rgba(0,0,0,1);
+    max-width:350px;
+}
+
+.cleaner-kit p {
+    max-width:350px;
+    margin-top:15px;
+}
+
+.cleaner-kit p strong {
+    display:block;
+    font-size: 19px;
+}
+
+/* /PAGE2 */
+
+/* PAGE 3 */
+
+.poychi-fiber-stain-remover-carousel .carousel-caption {
+    top: 1.25rem;
+    text-align:left;
+    left:25%;
+    right:25%;
+}
+.poychi-fiber-stain-remover-carousel .carousel-caption h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2.2rem;
+    color:white;
+    text-shadow: 2px 2px 0px rgba(0,0,0,1);
+    margin:20px 0 20px;
+}
+
+.poychi-fiber-stain-remover-carousel .carousel-caption p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color:black;
+}
+.poychi-fiber-stain-remover-carousel .carousel-caption strong {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    color:white;
+    text-shadow: 2px 2px 0px rgba(0,0,0,1);
+    line-height:3rem;
+    display:block;
+    margin-bottom:20px;
+    
+}
+
+
+.poychi-main-shoe-cleaner {
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/poychi-main-shoe-cleaner-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.poychi-main-stain-remover {
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/poychi-main-stain-remover-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.poychi-main-shoe-cleaner-kit {
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/poychi-main-shoe-cleaner-spray-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.poychi-fiber-stain-remover-spray {
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/bubble_pattern_pink.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.poychi-fiber-stain-remover-spray-90 {
+    background-size: 90%;
+}
+
+.poychi-fiber-stain-remover-spray strong {
+    font-size:1.3rem;
+}
+
+.poychi-fiber-stain-remover-spray p {
+    padding:0 100px;
+}
+
+
+
+.poychi-main-shoe-cleaner h2,
+.poychi-main-stain-remover h2 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/poychi-main-shoe-cleaner-heading.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.poychi-main-shoe-cleaner-kit h3 {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+}
+.poychi-main-shoe-cleaner p,
+.poychi-main-stain-remover p,
+.poychi-main-shoe-cleaner-kit p,
+.poychi-main-stain-remover-spray p {
+    font-size: 1.3rem;
+}
+.poychi-main-12-in-1 h3 {
+    color: #3174f7;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.bg-gradient-poychi-green {
+    background: rgb(145,226,214);
+    background: radial-gradient(circle, rgba(145,226,214,1) 0%, rgba(196,237,228,1) 66%);
+}
+.bg-poychi-pink {
+    background-color: #f5dff2;
+}
+.bg-poychi-light {
+    background-color: #ffe5d8;
+}
+
+.poychi-stain-remover-cta h2 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/stain-remover-bg-pattern.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.poychi-stain-remover-cta .product_view_block {
+    display:flex;
+    align-items: center;
+    gap:20px;
+}
+
+.poychi-stain-remover-cta .product_view_block .product-view {
+    border:1px solid black;
+    border-radius: 10px;
+    width:220px;
+    margin-bottom:10px;
+}
+
+.price-view {
+    margin:10px 0;
+}
+
+.add-to-cart-btn {
+    background-color:#87b463;
+    color:white;
+    border-radius:5px;
+    text-decoration:none;
+    padding:8px 30px;
+}
+
+.shipping-note { 
+    margin-top:auto;
+    margin-bottom:10px;
+}
+
+.stean-remover-bg-alice {
+    background-color: #fcf0e1;
+    padding:30px 30px;
+}
+
+
+.stean-remover-bg-alice .img-border {
+    border:3px solid #fe9912;
+    margin-bottom:20px;
+}
+
+
+.stean-remover-bg-alice .blue-text {
+    color:#0b6ad2;
+    width:100%;
+    text-align: center;
+    margin:0px auto;
+}
+
+
+
+
+.cleaner-kit {
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/cleaner-kit-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.cleaner-kit h4 {
+    color:white;
+    text-shadow: 2px 2px 0px rgba(0,0,0,1);
+    max-width:350px;
+}
+
+.cleaner-kit p {
+    max-width:350px;
+    margin-top:15px;
+}
+
+.cleaner-kit p strong {
+    display:block;
+    font-size: 19px;
+}
+/* /PAGE 3 */
+
+
+/* PAGE 4 */
+
+.poychi-stain-remover-carousel .carousel-caption {
+    top: 1.25rem;
+    text-align:left;
+    left:35%;
+    right:25%;
+}
+.poychi-stain-remover-carousel .carousel-caption h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2.2rem;
+    color:white;
+    text-shadow: 2px 2px 0px rgba(0,0,0,1);
+    margin:20px 0 20px;
+}
+
+.poychi-stain-remover-carousel .carousel-caption p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color:#2050ab;
+}
+.poychi-stain-remover-carousel .carousel-caption strong {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color:#2050ab;
+    line-height:3rem;
+    display:block;
+    
+}
+
+.poychi-stain-remover-carousel .carousel-caption span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color:white;
+    line-height:3rem;
+    display:block;
+    margin-bottom:20px;
+    text-shadow: 2px 2px 0px rgba(0,0,0,1);
+    
+}
+
+
+.poychi-main-shoe-cleaner {
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/poychi-main-shoe-cleaner-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.poychi-main-stain-remover {
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/poychi-main-stain-remover-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.poychi-main-shoe-cleaner-kit {
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/poychi-main-shoe-cleaner-spray-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.stain-remover-spray {
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/spray-bg-pattern.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.stain-remover-spray-90 {
+    background-size: 90%;
+}
+
+.stain-remover-spray strong {
+    font-size:1.3rem;
+}
+
+.stain-remover-spray p {
+    padding:0 100px;
+}
+
+
+
+.poychi-main-shoe-cleaner h2,
+.poychi-main-stain-remover h2 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/poychi-main-shoe-cleaner-heading.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.poychi-main-shoe-cleaner-kit h3 {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+}
+.poychi-main-shoe-cleaner p,
+.poychi-main-stain-remover p,
+.poychi-main-shoe-cleaner-kit p,
+.poychi-main-stain-remover-spray p {
+    font-size: 1.3rem;
+}
+.poychi-main-12-in-1 h3 {
+    color: #3174f7;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.bg-gradient-poychi-green {
+    background: rgb(145,226,214);
+    background: radial-gradient(circle, rgba(145,226,214,1) 0%, rgba(196,237,228,1) 66%);
+}
+.bg-poychi-pink {
+    background-color: #f5dff2;
+}
+.bg-poychi-light {
+    background-color: #ffe5d8;
+}
+
+.poychi-stain-remover-cta h2 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/stain-remover-bg-pattern.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.poychi-stain-remover-cta .product_view_block {
+    display:flex;
+    align-items: center;
+    gap:20px;
+}
+
+.poychi-stain-remover-cta .product_view_block .product-view {
+    border:1px solid black;
+    border-radius: 10px;
+    width:220px;
+    margin-bottom:10px;
+}
+
+.price-view {
+    margin:10px 0;
+}
+
+.add-to-cart-btn {
+    background-color:#87b463;
+    color:white;
+    border-radius:5px;
+    text-decoration:none;
+    padding:8px 30px;
+}
+
+.shipping-note { 
+    margin-top:auto;
+    margin-bottom:10px;
+}
+
+.stean-remover-bg-alice {
+    background-color: #fcf0e1;
+    padding:30px 30px;
+}
+
+
+.stean-remover-bg-alice .img-border {
+    border:3px solid #fe9912;
+    margin-bottom:20px;
+}
+
+
+.stean-remover-bg-alice .blue-text {
+    color:#0b6ad2;
+    width:100%;
+    text-align: center;
+    margin:0px auto;
+}
+
+
+
+
+.poychi-spray-kit {
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/eco-friendly.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.poychi-spray-kit ul li {
+    color:black;
+    max-width:350px;
+    font-size:1.5rem;
+    margin-bottom:10px;
+}
+
+/* /PAGE 4 */
+
+/* PAGE 5 */
+.microfiber-rag-carousel .carousel-caption {
+    top: 1.25rem;
+    text-align:left;
+    left:50%;
+    right:0%;
+    top:35%;
+}
+.microfiber-rag-carousel .carousel-caption h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2.2rem;
+    color:#565f88;
+    margin:20px 0 20px;
+}
+
+.microfiber-rag-carousel .carousel-caption p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color:#405be1;
+}
+.microfiber-rag-carousel .carousel-caption strong {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color:#2050ab;
+    line-height:3rem;
+    display:block;
+    
+}
+
+.microfiber-rag-carousel .carousel-caption span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color:white;
+    line-height:3rem;
+    display:block;
+    margin-bottom:20px;
+    text-shadow: 2px 2px 0px rgba(0,0,0,1);
+    
+}
+
+
+.poychi-main-shoe-cleaner {
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/poychi-main-shoe-cleaner-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.poychi-main-stain-remover {
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/poychi-main-stain-remover-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.poychi-main-shoe-cleaner-kit {
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/poychi-main-shoe-cleaner-spray-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.magic-rag {
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/spray-bg-pattern.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    
+}
+.magic-rag-90 {
+    background-size: 90%;
+}
+
+
+
+.magic-rag p {
+    padding:0 80px;
+}
+
+.magic-rag h2 {
+    font-weight:bold;
+    font-size:1.2rem;
+    padding: 0 80px;
+}
+
+
+
+.poychi-main-shoe-cleaner h2,
+.poychi-main-stain-remover h2 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/poychi-main-shoe-cleaner-heading.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.poychi-main-shoe-cleaner-kit h3 {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+}
+.poychi-main-shoe-cleaner p,
+.poychi-main-stain-remover p,
+.poychi-main-shoe-cleaner-kit p,
+.poychi-main-stain-remover-spray p {
+    font-size: 1.3rem;
+}
+.poychi-main-12-in-1 h3 {
+    color: #3174f7;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.bg-gradient-poychi-green {
+    background: rgb(145,226,214);
+    background: radial-gradient(circle, rgba(145,226,214,1) 0%, rgba(196,237,228,1) 66%);
+}
+.bg-poychi-pink {
+    background-color: #f5dff2;
+}
+.bg-poychi-light {
+    background-color: #ffe5d8;
+}
+
+.poychi-magic-rag-cta h2 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/rag-bubble-patern.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.poychi-magic-rag-cta .product_view_block {
+    display:flex;
+    align-items: center;
+    gap:20px;
+}
+
+.poychi-magic-rag-cta .product_view_block .product_view_item {
+    
+    width:30%;
+}
+
+.poychi-magic-rag-cta .product_view_block .product-view {
+    border:1px solid black;
+    border-radius: 10px;
+    width:90%;
+    margin-bottom:10px;
+}
+
+.price-view {
+    margin:10px 0 30px;
+}
+
+.add-to-cart-btn {
+    background-color:#87b463;
+    color:white;
+    border-radius:5px;
+    text-decoration:none;
+    padding:8px 30px;
+}
+
+.shipping-note { 
+    margin-top:auto;
+    margin-bottom:10px;
+}
+
+
+
+.magic-rag-bg-blue {
+    background-color: #61bbe3;
+}
+
+.easy-steps-text {
+    color:white;
+    padding:15px 0;
+}
+
+
+
+
+.stean-remover-bg-alice {
+    background-color: #fcf0e1;
+    padding:30px 30px;
+}
+
+
+.stean-remover-bg-alice .img-border {
+    border:3px solid #fe9912;
+    margin-bottom:20px;
+}
+
+
+.stean-remover-bg-alice .blue-text {
+    color:#0b6ad2;
+    width:100%;
+    text-align: center;
+    margin:0px auto;
+}
+
+
+
+
+.super-fiber {
+    background-image: url(https://cdn.shopify.com/s/files/1/0845/6935/8626/files/super-fiber.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.super-fiber .title {
+    color:black;
+    font-size:1.5rem;
+    margin-bottom:10px;
+    text-align: center;
+}
+
+.super-fiber h4 {
+    color:red;
+    font-size:2.2rem;
+    margin-bottom:10px;
+    text-align: center;
+}
+
+.super-fiber h5 {
+    color:#3773f6;
+    font-size:2.2rem;
+    margin-bottom:10px;
+    text-align: center;
+}
+/* /PAGE 5 */
+
+
+
+
 footer .container {
     border-width: 10px 0px 0px 0px;
     border-style: solid;
