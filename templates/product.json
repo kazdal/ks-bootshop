@@ -43,37 +43,10 @@
         "mt": 10,
         "mb": 10
       }
-    },
-    "5ca5d2db-2cba-4423-b260-a6a8749b20a8": {
-      "type": "recommended-products",
-      "settings": {
-        "bg_color": "",
-        "text_align": "text-center",
-        "limit": 8,
-        "title": "Recommended Products",
-        "title_size": "h2",
-        "description": "<p>Add on optional description to this section<\/p>",
-        "description_size": "fs-6",
-        "product_img_orientation": "square",
-        "product_img_border": "img-thumbnail",
-        "product_title_size": "h6",
-        "mobile_scroll": true,
-        "breakpoint_xs": 1,
-        "breakpoint_sm": 2,
-        "breakpoint_md": 2,
-        "breakpoint_lg": 3,
-        "breakpoint_xl": 4,
-        "breakpoint_xxl": 4,
-        "pt": 0,
-        "pb": 11,
-        "mt": 0,
-        "mb": 0
-      }
     }
   },
   "order": [
     "template-product",
-    "a048e36f-1b13-4ad9-9fdd-e392f0e9489c",
-    "5ca5d2db-2cba-4423-b260-a6a8749b20a8"
+    "a048e36f-1b13-4ad9-9fdd-e392f0e9489c"
   ]
 }
