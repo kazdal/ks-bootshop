@@ -1,3 +1,10 @@
+{% comment %}
+	GEMPAGE BUILDER (https://apps.shopify.com/gempage)
+
+	You SHOULD NOT modify source code in this page because
+	It is automatically generated from GEMPAGE BUILDER
+	Try to edit page with the live editor.
+{% endcomment %}
 <!doctype html>
 <html lang="{{ request.locale.iso_code }}">
 <head>
@@ -68,32 +75,38 @@
     <script src="{{ 'cart.js' | asset_url }}" defer></script>
     <script src="{{ 'custom.js' | asset_url }}" defer></script>
 
-{% render 'gp-head' %}
 </head>
 
-<body class="{{ request.page_type | prepend: 'page-type-' }}">
-    <a class="visually-hidden-focusable" href="#main">
-        {{ 'general.accessibility.skip_content' | t }}
-    </a>
-    
-    {% liquid 
-        section 'announcement-bar' 
-        section 'navbar' 
-    %}
-
-    <main id="main">
-        {{ content_for_layout }}
-    </main>
-
-    {% liquid
-        section 'newsletter'
-        section 'footer'
-    %}
-
-    {% liquid
-        render 'offcanvas-cart'
-        render 'offcanvas-search'
-    %}
+<body>
+<div class="gem-container">
+	{{ content_for_layout }}
+</div><!-- end .gem-container --><!--Gem_Page_Footer_Script-->
+  {%- liquid
+    assign gpTemplateSuffix = template.suffix
+    assign arrSplitSuffix = gpTemplateSuffix | split: '-'
+    if gpTemplateSuffix contains 'gem-' and gpTemplateSuffix contains '-template' and arrSplitSuffix.size == 3
+      assign isV6GpTemplate = true
+    endif
+    assign gpShopMeta = shop.metafields.gempages
+    if gpShopMeta
+      if gpShopMeta['productV6-default'] == 'true' and request.page_type == 'product'
+        assign isProductDefault = true
+      endif
+      if gpShopMeta['collectionV6-default'] == 'true' and request.page_type == 'collection'
+        assign isCollectionDefault = true
+      endif
+      if gpShopMeta['indexV6-default'] == 'true' and request.page_type == 'index'
+        assign isIndexDefault = true
+      endif
+      if isProductDefault or isCollectionDefault or isIndexDefault or isPreviewV6
+        assign isV6GpTemplate = true
+      endif
+    endif
+  %}
+  {% if isV6GpTemplate %}
+    {% render 'gem-app-footer-scripts', GEM_FOOTER_SCRIPT: GEM_FOOTER_SCRIPT %}
+  {% endif %}
+<!--End_Gem_Page_Footer_Script-->
 </body>
 </html>
     

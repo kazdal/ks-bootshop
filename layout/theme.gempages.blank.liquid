@@ -71,29 +71,8 @@
 {% render 'gp-head' %}
 </head>
 
-<body class="{{ request.page_type | prepend: 'page-type-' }}">
-    <a class="visually-hidden-focusable" href="#main">
-        {{ 'general.accessibility.skip_content' | t }}
-    </a>
-    
-    {% liquid 
-        section 'announcement-bar' 
-        section 'navbar' 
-    %}
-
-    <main id="main">
+<body class="{{ request.page_type | prepend: 'page-type-' }}"><main id="main">
         {{ content_for_layout }}
-    </main>
-
-    {% liquid
-        section 'newsletter'
-        section 'footer'
-    %}
-
-    {% liquid
-        render 'offcanvas-cart'
-        render 'offcanvas-search'
-    %}
-</body>
+    </main></body>
 </html>
     
